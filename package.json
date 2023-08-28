@@ -1,0 +1,16 @@
+{
+"homepage": "https://anmoljaiswal291.github.io/faceboo/",
+
+  "scripts": {
+    "start": "vite",
+    "predeploy":"yarn run build",
+    "deploy":"gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "vite": "^4.4.9"
+  }
+}
